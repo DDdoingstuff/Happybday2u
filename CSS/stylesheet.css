@@ -1,0 +1,112 @@
+body {
+    background-image: url(/images/wab_background.jpg);
+    font-family: 'Montserrat', sans-serif;
+    color: #221e0d;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+* {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* FONTS */
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: #f0422b;
+    text-align: left;
+    padding: .625rem .938rem;
+    margin: 0px;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: #f0422b;
+    text-align: center;
+    padding: .625rem .938rem;
+    margin: 0px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.75rem;
+}
+strong {
+    font-size: 1.063rem;
+    color: #f0422b ;
+}
+em {
+    font-size: .75rem;
+}
+.brody {
+    font-size: 1.125rem;
+    font-weight: bolder;
+}
+
+/* CONTAINER */
+.container {
+    width: 600px;
+    margin: .625rem auto;
+    text-align: center;
+}
+.container section:nth-child(even) {
+    background: #f7f1dd;
+    opacity: 90%;
+}
+.container section:nth-child(odd) {
+    background: #fdcf3b;
+    opacity: 90%;
+}
+/* IMAGES/ASIDE */
+img.hero {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    top: 5px;
+}
+img.best {
+    width: 75%;
+}
+
+aside.right {
+    float: right;
+}
+.clown {
+    width: 55%;
+}
+aside.left {
+    float: left;
+}
+.balloons {
+    width: 55%;
+}
+.pizza {
+    width: 20%;
+}
+
+/* SECTIONS */
+section {
+    margin: 0;
+    padding: 10px 70px 10px 70px
+}
+/* MAP */
+.map {
+    width: 100%;
+}
+/* FOOTER */
+footer {
+    background: #fdcf3b;
+    color: #f0422b;
+    padding: 1.25rem;
+}
+a {
+    color: #f0422b;
+    font-style: italic;
+}
