@@ -1,0 +1,15 @@
+.container {
+  width: 100%;  
+  margin: 0px;
+  padding: 0px;
+}
+img.hero {
+    width: 100%;
+    border-radius: 0px;
+}
+aside.right, aside.left {
+    float: inherit;
+}
+.clown, .balloons {
+    width: 25%;
+}
